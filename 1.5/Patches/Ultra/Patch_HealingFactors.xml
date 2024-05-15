@@ -23,7 +23,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewX</xpath>
 				<value>
-					<researchViewX>4</researchViewX>
+					<researchViewX>0</researchViewX>
 				</value>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
