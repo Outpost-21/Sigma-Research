@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Bioregeneration ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="Bioregeneration"]</xpath>
+				<value>
+					<tab>Sigma_Spacer</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="Bioregeneration"]/techLevel</xpath>
+				<value>
+					<techLevel>Spacer</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="Bioregeneration"]/researchViewX</xpath>
+				<value>
+					<researchViewX>2</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="Bioregeneration"]/researchViewY</xpath>
+				<value>
+					<researchViewY>0.5</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

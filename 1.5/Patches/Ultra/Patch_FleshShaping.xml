@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== FleshShaping ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="FleshShaping"]</xpath>
+				<value>
+					<tab>Sigma_Ultratech</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="FleshShaping"]</xpath>
+				<value>
+					<techLevel>Ultra</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="FleshShaping"]/researchViewX</xpath>
+				<value>
+					<researchViewX>2</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="FleshShaping"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.5</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

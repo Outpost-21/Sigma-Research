@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== ShieldBelt ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="ShieldBelt"]</xpath>
+				<value>
+					<tab>Sigma_Spacer</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="ShieldBelt"]/techLevel</xpath>
+				<value>
+					<techLevel>Spacer</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="ShieldBelt"]/researchViewX</xpath>
+				<value>
+					<researchViewX>1</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="ShieldBelt"]/researchViewY</xpath>
+				<value>
+					<researchViewY>2</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

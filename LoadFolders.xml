@@ -1,0 +1,31 @@
+<loadFolders>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+        <li IfModActive="Ludeon.RimWorld.Royalty">1.5/Mods/Royalty</li>
+        <li IfModActive="Ludeon.RimWorld.Ideology">1.5/Mods/Ideology</li>
+        <li IfModActive="Ludeon.RimWorld.Biotech">1.5/Mods/Biotech</li>
+		<!-- =========================== Outland - Core -->
+        <li IfModActive="Neronix17.Outland.Core">1.5/Mods/Outland/Core</li>
+		<!-- =========================== Outland - Mages Guild -->
+        <li IfModActive="Neronix17.Outland.MagesGuild">1.5/Mods/Outland/MagesGuild</li>
+		<!-- =========================== Outland - Lichdom -->
+        <li IfModActive="Neronix17.Outland.Lichdom">1.5/Mods/Outland/Lichdom</li>
+		<!-- =========================== Geothermal Coolers -->
+        <li IfModActive="Neronix17.GeothermalCooler">1.5/Mods/GeothermalCoolers</li>
+		<!-- =========================== Phanerons Basic Storage -->
+        <li IfModActive="phaneron.basic.storage">1.5/Mods/PhaneronsStorage</li>
+		<!-- =========================== Adaptive Storage Neolithic Module -->
+        <li IfModActive="adaptive.storage.neolithic">1.5/Mods/NeolithicStorage</li>
+		<!-- =========================== Divine Order -->
+        <li IfModActive="botchjob.divineorder">1.5/Mods/DivineOrder</li>
+		<!-- =========================== The Profaned -->
+        <li IfModActive="botchjob.profaned">1.5/Mods/Profaned</li>
+		<!-- =========================== Food Pot -->
+        <li IfModActive="Argon.CauldronMod">1.5/Mods/FoodPot</li>
+		<!-- =========================== Crypts and Tombs -->
+        <li IfModActive="Van.DACrypts">1.5/Mods/CryptsAndTombs</li>
+		<!-- =========================== Stoneborn Delights -->
+        <li IfModActive="det.sbdelights">1.5/Mods/StonebornDelights</li>
+	</v1.5>
+</loadFolders>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== HealingFactors ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="HealingFactors"]</xpath>
+				<value>
+					<tab>Sigma_Ultratech</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="HealingFactors"]</xpath>
+				<value>
+					<techLevel>Ultra</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewX</xpath>
+				<value>
+					<researchViewX>4</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

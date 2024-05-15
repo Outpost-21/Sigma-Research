@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== ASNeolithicNeolithicStorage ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="ASNeolithicNeolithicStorage"]</xpath>
+				<value>
+					<tab>Main</tab>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="ASNeolithicNeolithicStorage"]/researchViewX</xpath>
+				<value>
+					<researchViewX>3</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="ASNeolithicNeolithicStorage"]/researchViewY</xpath>
+				<value>
+					<researchViewY>0</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

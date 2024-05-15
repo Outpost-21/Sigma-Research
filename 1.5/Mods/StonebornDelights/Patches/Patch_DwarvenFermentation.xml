@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Tech Level ============================= -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenBrewing"]/tab</xpath>
+		<value>
+			<tab>Sigma_Medieval</tab>
+		</value>
+	</Operation>
+
+	<!-- ==================== Tech Level ============================= -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenBrewing"]/techLevel</xpath>
+		<value>
+			<techLevel>Medieval</techLevel>
+		</value>
+	</Operation>
+
+	<!-- ==================== Horizontal Position ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenBrewing"]/researchViewX</xpath>
+		<value>
+			<researchViewX>3</researchViewX>
+		</value>
+	</Operation>
+
+	<!-- ==================== Vertical Position ====================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenBrewing"]/researchViewY</xpath>
+		<value>
+			<researchViewY>1.5</researchViewY>
+		</value>
+	</Operation>
+
+</Patch>

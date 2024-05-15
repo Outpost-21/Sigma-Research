@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Sigma Research</name>
+	<author>Neronix17</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>Neronix17.SigmaResearch</packageId>
+	<description>Overhauls the vanilla research tree to be tech level orientated, reworks the vanilla tech tree a little, and patches many mods to fit into the new tabs.
+
+Unpatched mods are handled automatically, which may not be as neat as manually patching but it at least has them in the correct tab and not overlapping.</description>
+</ModMetaData>

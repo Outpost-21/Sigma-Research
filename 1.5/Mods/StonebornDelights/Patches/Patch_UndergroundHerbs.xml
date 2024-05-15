@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Tech Level ============================= -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenDrugPlants"]/tab</xpath>
+		<value>
+			<tab>Main</tab>
+		</value>
+	</Operation>
+
+	<!-- ==================== Tech Level ============================= -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenDrugPlants"]/techLevel</xpath>
+		<value>
+			<techLevel>Neolithic</techLevel>
+		</value>
+	</Operation>
+
+	<!-- ==================== Horizontal Position ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenDrugPlants"]/researchViewX</xpath>
+		<value>
+			<researchViewX>4</researchViewX>
+		</value>
+	</Operation>
+
+	<!-- ==================== Vertical Position ====================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenDrugPlants"]/researchViewY</xpath>
+		<value>
+			<researchViewY>0.5</researchViewY>
+		</value>
+	</Operation>
+
+</Patch>

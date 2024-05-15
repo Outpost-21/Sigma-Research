@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== GasOperation ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="GasOperation"]</xpath>
+				<value>
+					<tab>Sigma_Industrial</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="GasOperation"]/techLevel</xpath>
+				<value>
+					<techLevel>Industrial</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="GasOperation"]/researchViewX</xpath>
+				<value>
+					<researchViewX>7</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="GasOperation"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

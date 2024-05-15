@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Tech Level ============================= -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="BotchJob_DivineOrderEliteArmor"]/tab</xpath>
+		<value>
+			<tab>Sigma_Medieval</tab>
+		</value>
+	</Operation>
+
+	<!-- ==================== Tech Level ============================= -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="BotchJob_DivineOrderEliteArmor"]/techLevel</xpath>
+		<value>
+			<techLevel>Medieval</techLevel>
+		</value>
+	</Operation>
+
+	<!-- ==================== Horizontal Position ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="BotchJob_DivineOrderEliteArmor"]/researchViewX</xpath>
+		<value>
+			<researchViewX>2</researchViewX>
+		</value>
+	</Operation>
+
+	<!-- ==================== Vertical Position ====================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="BotchJob_DivineOrderEliteArmor"]/researchViewY</xpath>
+		<value>
+			<researchViewY>2</researchViewY>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== VitalsMonitor ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="VitalsMonitor"]</xpath>
+				<value>
+					<tab>Sigma_Industrial</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="VitalsMonitor"]/techLevel</xpath>
+				<value>
+					<techLevel>Industrial</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="VitalsMonitor"]/researchViewX</xpath>
+				<value>
+					<researchViewX>11</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="VitalsMonitor"]/researchViewY</xpath>
+				<value>
+					<researchViewY>1</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

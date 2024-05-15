@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>Sigma_Animal</defName>
+		<label>Animal</label>
+		<generalTitle>Animal Research Projects</generalTitle>
+		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time. Don't blame me for the name, it's Tynan's fault.</generalDescription>
+	</ResearchTabDef>
+
+	<ResearchTabDef>
+		<defName>Sigma_Neolithic</defName>
+		<label>Neolithic</label>
+		<generalTitle>Medieval Research Projects</generalTitle>
+		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+	</ResearchTabDef>
+
+	<ResearchTabDef>
+		<defName>Sigma_Medieval</defName>
+		<label>Medieval</label>
+		<generalTitle>Medieval Research Projects</generalTitle>
+		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+	</ResearchTabDef>
+
+	<ResearchTabDef>
+		<defName>Sigma_Industrial</defName>
+		<label>Industrial</label>
+		<generalTitle>Industrial Research Projects</generalTitle>
+		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+	</ResearchTabDef>
+
+	<ResearchTabDef>
+		<defName>Sigma_Spacer</defName>
+		<label>Spacer</label>
+		<generalTitle>Spacer Research Projects</generalTitle>
+		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+	</ResearchTabDef>
+
+	<ResearchTabDef>
+		<defName>Sigma_Ultratech</defName>
+		<label>Ultratech</label>
+		<generalTitle>Ultratech Research Projects</generalTitle>
+		<generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+	</ResearchTabDef>
+
+</Defs>

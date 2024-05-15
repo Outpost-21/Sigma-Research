@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== BrainWiring ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="BrainWiring"]</xpath>
+				<value>
+					<tab>Sigma_Industrial</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="BrainWiring"]</xpath>
+				<value>
+					<techLevel>Industrial</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewX</xpath>
+				<value>
+					<researchViewX>9</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

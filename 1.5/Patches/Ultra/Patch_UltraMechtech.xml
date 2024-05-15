@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== UltraMechtech ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="UltraMechtech"]</xpath>
+				<value>
+					<tab>Sigma_Ultratech</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="UltraMechtech"]/techLevel</xpath>
+				<value>
+					<techLevel>Ultra</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="UltraMechtech"]/researchViewX</xpath>
+				<value>
+					<researchViewX>0</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="UltraMechtech"]/researchViewY</xpath>
+				<value>
+					<researchViewY>5</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

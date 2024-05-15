@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== VenomSynthesis ============================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="VenomSynthesis"]</xpath>
+				<value>
+					<tab>Sigma_Industrial</tab>
+				</value>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="VenomSynthesis"]</xpath>
+				<value>
+					<techLevel>Industrial</techLevel>
+				</value>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="VenomSynthesis"]/researchViewX</xpath>
+				<value>
+					<researchViewX>10</researchViewX>
+				</value>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="VenomSynthesis"]/researchViewY</xpath>
+				<value>
+					<researchViewY>2.5</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
