@@ -9,4 +9,7 @@
 	<description>Overhauls the vanilla research tree to be tech level orientated, reworks the vanilla tech tree a little, and patches many mods to fit into the new tabs.
 
 Unpatched mods are handled automatically, which may not be as neat as manually patching but it at least has them in the correct tab and not overlapping.</description>
+	<loadAfter>
+		<li>Neronix17.TweaksGalore</li>
+	</loadAfter>
 </ModMetaData>
