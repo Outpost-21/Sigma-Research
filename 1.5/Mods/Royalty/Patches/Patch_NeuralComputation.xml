@@ -6,32 +6,68 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
-				<value>
-					<tab>Sigma_Ultratech</tab>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/tab</xpath>
+					<value>
+						<tab>Sigma_Ultratech</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
+					<value>
+						<tab>Sigma_Ultratech</tab>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
-				<value>
-					<techLevel>Ultra</techLevel>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/techLevel</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/techLevel</xpath>
+					<value>
+						<techLevel>Ultra</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
+					<value>
+						<techLevel>Ultra</techLevel>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewX</xpath>
-				<value>
-					<researchViewX>2</researchViewX>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewX</xpath>
+					<value>
+						<researchViewX>2</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
+					<value>
+						<researchViewX>2</researchViewX>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewY</xpath>
-				<value>
-					<researchViewY>3.5</researchViewY>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewY</xpath>
+					<value>
+						<researchViewY>3.5</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
+					<value>
+						<researchViewY>3.5</researchViewY>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>

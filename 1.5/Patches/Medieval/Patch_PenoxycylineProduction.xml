@@ -1,40 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<!-- ==================== Tech Level ============================= -->
+	<!-- ==================== PenoxycylineProduction ============================= -->
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
-		<value>
-			<tab>Sigma_Medieval</tab>
-		</value>
-	</Operation>
-
-	<!-- ==================== Tech Level ============================= -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/techLevel</xpath>
-		<value>
-			<techLevel>Medieval</techLevel>
-		</value>
-	</Operation>
-
-	<!-- ==================== Horizontal Position ==================== -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/researchViewX</xpath>
-		<value>
-			<researchViewX>6</researchViewX>
-		</value>
-	</Operation>
-
-	<!-- ==================== Vertical Position ====================== -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/researchViewY</xpath>
-		<value>
-			<researchViewY>3</researchViewY>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/tab</xpath>
+					<value>
+						<tab>Sigma_Medieval</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
+					<value>
+						<tab>Sigma_Medieval</tab>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/techLevel</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/techLevel</xpath>
+					<value>
+						<techLevel>Medieval</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
+					<value>
+						<techLevel>Medieval</techLevel>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/researchViewX</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/researchViewX</xpath>
+					<value>
+						<researchViewX>6</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
+					<value>
+						<researchViewX>6</researchViewX>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/researchViewY</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/researchViewY</xpath>
+					<value>
+						<researchViewY>3</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
+					<value>
+						<researchViewY>3</researchViewY>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
 	</Operation>
 
 </Patch>

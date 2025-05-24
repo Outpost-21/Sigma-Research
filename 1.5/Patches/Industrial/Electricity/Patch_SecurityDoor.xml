@@ -6,32 +6,68 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]</xpath>
-				<value>
-					<tab>Sigma_Industrial</tab>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/tab</xpath>
+					<value>
+						<tab>Sigma_Industrial</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]</xpath>
+					<value>
+						<tab>Sigma_Industrial</tab>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/techLevel</xpath>
-				<value>
-					<techLevel>Industrial</techLevel>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/techLevel</xpath>
+					<value>
+						<techLevel>Industrial</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]</xpath>
+					<value>
+						<techLevel>Industrial</techLevel>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/researchViewX</xpath>
-				<value>
-					<researchViewX>2</researchViewX>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/researchViewX</xpath>
+					<value>
+						<researchViewX>2</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]</xpath>
+					<value>
+						<researchViewX>2</researchViewX>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/researchViewY</xpath>
-				<value>
-					<researchViewY>0.5</researchViewY>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/researchViewY</xpath>
+					<value>
+						<researchViewY>0.5</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]</xpath>
+					<value>
+						<researchViewY>0.5</researchViewY>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>

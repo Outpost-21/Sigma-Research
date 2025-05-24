@@ -6,32 +6,68 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
-				<value>
-					<tab>Sigma_Ultratech</tab>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/tab</xpath>
+					<value>
+						<tab>Sigma_Ultratech</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
+					<value>
+						<tab>Sigma_Ultratech</tab>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
-				<value>
-					<techLevel>Ultra</techLevel>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/techLevel</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/techLevel</xpath>
+					<value>
+						<techLevel>Ultra</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
+					<value>
+						<techLevel>Ultra</techLevel>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewX</xpath>
-				<value>
-					<researchViewX>1</researchViewX>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewX</xpath>
+					<value>
+						<researchViewX>1</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
+					<value>
+						<researchViewX>1</researchViewX>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewY</xpath>
-				<value>
-					<researchViewY>3.5</researchViewY>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewY</xpath>
+					<value>
+						<researchViewY>3.5</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
+					<value>
+						<researchViewY>3.5</researchViewY>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>

@@ -6,32 +6,68 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
-				<value>
-					<tab>Sigma_Industrial</tab>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/tab</xpath>
+					<value>
+						<tab>Sigma_Industrial</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+					<value>
+						<tab>Sigma_Industrial</tab>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/techLevel</xpath>
-				<value>
-					<techLevel>Industrial</techLevel>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/techLevel</xpath>
+					<value>
+						<techLevel>Industrial</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+					<value>
+						<techLevel>Industrial</techLevel>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewX</xpath>
-				<value>
-					<researchViewX>6</researchViewX>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewX</xpath>
+					<value>
+						<researchViewX>6</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+					<value>
+						<researchViewX>6</researchViewX>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewY</xpath>
-				<value>
-					<researchViewY>2.5</researchViewY>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewY</xpath>
+					<value>
+						<researchViewY>2.5</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+					<value>
+						<researchViewY>2.5</researchViewY>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>

@@ -6,32 +6,68 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]</xpath>
-				<value>
-					<tab>Sigma_Spacer</tab>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/tab</xpath>
+					<value>
+						<tab>Sigma_Spacer</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]</xpath>
+					<value>
+						<tab>Sigma_Spacer</tab>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/techLevel</xpath>
-				<value>
-					<techLevel>Spacer</techLevel>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/techLevel</xpath>
+					<value>
+						<techLevel>Spacer</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]</xpath>
+					<value>
+						<techLevel>Spacer</techLevel>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/researchViewX</xpath>
-				<value>
-					<researchViewX>3</researchViewX>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/researchViewX</xpath>
+					<value>
+						<researchViewX>3</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]</xpath>
+					<value>
+						<researchViewX>3</researchViewX>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/researchViewY</xpath>
-				<value>
-					<researchViewY>1.5</researchViewY>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]/researchViewY</xpath>
+					<value>
+						<researchViewY>1.5</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="CataphractArmor"]</xpath>
+					<value>
+						<researchViewY>1.5</researchViewY>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>

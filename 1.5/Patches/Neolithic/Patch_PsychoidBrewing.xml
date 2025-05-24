@@ -1,40 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<!-- ==================== Research Tab ============================= -->
+	<!-- ==================== PsychoidBrewing ============================= -->
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
-		<value>
-			<tab>Sigma_Neolithic</tab>
-		</value>
-	</Operation>
-
-	<!-- ==================== Tech Level ============================= -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/techLevel</xpath>
-		<value>
-			<techLevel>Neolithic</techLevel>
-		</value>
-	</Operation>
-
-	<!-- ==================== Horizontal Position ==================== -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/researchViewX</xpath>
-		<value>
-			<researchViewX>0</researchViewX>
-		</value>
-	</Operation>
-
-	<!-- ==================== Vertical Position ====================== -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/researchViewY</xpath>
-		<value>
-			<researchViewY>0.5</researchViewY>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/tab</xpath>
+					<value>
+						<tab>Sigma_Neolithic</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+					<value>
+						<tab>Sigma_Neolithic</tab>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/techLevel</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/techLevel</xpath>
+					<value>
+						<techLevel>Neolithic</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+					<value>
+						<techLevel>Neolithic</techLevel>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/researchViewX</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/researchViewX</xpath>
+					<value>
+						<researchViewX>0</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+					<value>
+						<researchViewX>0</researchViewX>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/researchViewY</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]/researchViewY</xpath>
+					<value>
+						<researchViewY>0.5</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+					<value>
+						<researchViewY>0.5</researchViewY>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
 	</Operation>
 
 </Patch>

@@ -6,32 +6,68 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]</xpath>
-				<value>
-					<tab>Sigma_Medieval</tab>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/tab</xpath>
+					<value>
+						<tab>Sigma_Medieval</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]</xpath>
+					<value>
+						<tab>Sigma_Medieval</tab>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/techLevel</xpath>
-				<value>
-					<techLevel>Medieval</techLevel>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/techLevel</xpath>
+					<value>
+						<techLevel>Medieval</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]</xpath>
+					<value>
+						<techLevel>Medieval</techLevel>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/researchViewX</xpath>
-				<value>
-					<researchViewX>2</researchViewX>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/researchViewX</xpath>
+					<value>
+						<researchViewX>2</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]</xpath>
+					<value>
+						<researchViewX>2</researchViewX>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/researchViewY</xpath>
-				<value>
-					<researchViewY>3</researchViewY>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]/researchViewY</xpath>
+					<value>
+						<researchViewY>3</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="BasicStorage"]</xpath>
+					<value>
+						<researchViewY>3</researchViewY>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>

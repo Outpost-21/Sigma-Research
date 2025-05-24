@@ -6,32 +6,68 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]</xpath>
-				<value>
-					<tab>Sigma_Spacer</tab>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/tab</xpath>
+					<value>
+						<tab>Sigma_Spacer</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]</xpath>
+					<value>
+						<tab>Sigma_Spacer</tab>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/techLevel</xpath>
-				<value>
-					<techLevel>Spacer</techLevel>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/techLevel</xpath>
+					<value>
+						<techLevel>Spacer</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]</xpath>
+					<value>
+						<techLevel>Spacer</techLevel>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/researchViewX</xpath>
-				<value>
-					<researchViewX>0</researchViewX>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/researchViewX</xpath>
+					<value>
+						<researchViewX>0</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]</xpath>
+					<value>
+						<researchViewX>0</researchViewX>
+					</value>
+				</nomatch>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/researchViewY</xpath>
-				<value>
-					<researchViewY>4</researchViewY>
-				</value>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/researchViewY</xpath>
+					<value>
+						<researchViewY>4</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]</xpath>
+					<value>
+						<researchViewY>4</researchViewY>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>
