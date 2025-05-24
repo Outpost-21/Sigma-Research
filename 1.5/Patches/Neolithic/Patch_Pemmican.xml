@@ -1,40 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<!-- ==================== Research Tab ============================= -->
+	<!-- ==================== Pemmican ============================= -->
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
-		<value>
-			<tab>Sigma_Neolithic</tab>
-		</value>
-	</Operation>
-
-	<!-- ==================== Tech Level ============================= -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/techLevel</xpath>
-		<value>
-			<techLevel>Neolithic</techLevel>
-		</value>
-	</Operation>
-
-	<!-- ==================== Horizontal Position ==================== -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/researchViewX</xpath>
-		<value>
-			<researchViewX>1</researchViewX>
-		</value>
-	</Operation>
-
-	<!-- ==================== Vertical Position ====================== -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/researchViewY</xpath>
-		<value>
-			<researchViewY>1</researchViewY>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- ==================== Research Tab ============================= -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/tab</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/tab</xpath>
+					<value>
+						<tab>Sigma_Neolithic</tab>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
+					<value>
+						<tab>Sigma_Neolithic</tab>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Tech Level ============================= -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/techLevel</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/techLevel</xpath>
+					<value>
+						<techLevel>Neolithic</techLevel>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
+					<value>
+						<techLevel>Neolithic</techLevel>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Horizontal Position ==================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/researchViewX</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/researchViewX</xpath>
+					<value>
+						<researchViewX>1</researchViewX>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
+					<value>
+						<researchViewX>1</researchViewX>
+					</value>
+				</nomatch>
+			</li>
+			<!-- ==================== Vertical Position ====================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/researchViewY</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/researchViewY</xpath>
+					<value>
+						<researchViewY>1</researchViewY>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
+					<value>
+						<researchViewY>1</researchViewY>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
 	</Operation>
 
 </Patch>
