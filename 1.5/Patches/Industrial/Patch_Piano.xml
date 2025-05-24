@@ -6,68 +6,32 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ResearchProjectDef[defName="Piano"]/tab</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]/tab</xpath>
-					<value>
-						<tab>Sigma_Industrial</tab>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]</xpath>
-					<value>
-						<tab>Sigma_Industrial</tab>
-					</value>
-				</nomatch>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="Piano"]</xpath>
+				<value>
+					<tab>Sigma_Industrial</tab>
+				</value>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="Piano"]/techLevel</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]/techLevel</xpath>
-					<value>
-						<techLevel>Industrial</techLevel>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]</xpath>
-					<value>
-						<techLevel>Industrial</techLevel>
-					</value>
-				</nomatch>
+				<value>
+					<techLevel>Industrial</techLevel>
+				</value>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="Piano"]/researchViewX</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]/researchViewX</xpath>
-					<value>
-						<researchViewX>0</researchViewX>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]</xpath>
-					<value>
-						<researchViewX>0</researchViewX>
-					</value>
-				</nomatch>
+				<value>
+					<researchViewX>0</researchViewX>
+				</value>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="Piano"]/researchViewY</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]/researchViewY</xpath>
-					<value>
-						<researchViewY>2.5</researchViewY>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Piano"]</xpath>
-					<value>
-						<researchViewY>2.5</researchViewY>
-					</value>
-				</nomatch>
+				<value>
+					<researchViewY>2.5</researchViewY>
+				</value>
 			</li>
 		</operations>
 	</Operation>

@@ -6,68 +6,32 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/tab</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/tab</xpath>
-					<value>
-						<tab>Sigma_Spacer</tab>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]</xpath>
-					<value>
-						<tab>Sigma_Spacer</tab>
-					</value>
-				</nomatch>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]</xpath>
+				<value>
+					<tab>Sigma_Spacer</tab>
+				</value>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/techLevel</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/techLevel</xpath>
-					<value>
-						<techLevel>techLevel</techLevel>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]</xpath>
-					<value>
-						<techLevel>techLevel</techLevel>
-					</value>
-				</nomatch>
+				<value>
+					<techLevel>Spacer</techLevel>
+				</value>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/researchViewX</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/researchViewX</xpath>
-					<value>
-						<researchViewX>researchViewX</researchViewX>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]</xpath>
-					<value>
-						<researchViewX>researchViewX</researchViewX>
-					</value>
-				</nomatch>
+				<value>
+					<researchViewX>1</researchViewX>
+				</value>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/researchViewY</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]/researchViewY</xpath>
-					<value>
-						<researchViewY>researchViewY</researchViewY>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="GrowthVats"]</xpath>
-					<value>
-						<researchViewY>researchViewY</researchViewY>
-					</value>
-				</nomatch>
+				<value>
+					<researchViewY>1</researchViewY>
+				</value>
 			</li>
 		</operations>
 	</Operation>

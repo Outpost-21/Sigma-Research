@@ -4,27 +4,27 @@
 	<!-- ==================== Tech Level ============================= -->
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ResearchProjectDef[defName="Outland_EssentiaProcessing"]</xpath>
+		<xpath>/Defs/ResearchProjectDef[defName="Outland_KalociteFarming"]</xpath>
 		<value>
-			<tab>Sigma_Medieval</tab>
+			<tab>Main</tab>
 		</value>
 	</Operation>
 
 	<!-- ==================== Horizontal Position ==================== -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="Outland_EssentiaProcessing"]/researchViewX</xpath>
+		<xpath>/Defs/ResearchProjectDef[defName="Outland_KalociteFarming"]/researchViewX</xpath>
 		<value>
-			<researchViewX>3</researchViewX>
+			<researchViewX>4</researchViewX>
 		</value>
 	</Operation>
 
 	<!-- ==================== Vertical Position ====================== -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName="Outland_EssentiaProcessing"]/researchViewY</xpath>
+		<xpath>/Defs/ResearchProjectDef[defName="Outland_KalociteFarming"]/researchViewY</xpath>
 		<value>
-			<researchViewY>3</researchViewY>
+			<researchViewY>0</researchViewY>
 		</value>
 	</Operation>
 

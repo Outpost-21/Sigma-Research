@@ -6,68 +6,32 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/tab</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/tab</xpath>
-					<value>
-						<tab>Sigma_Ultratech</tab>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]</xpath>
-					<value>
-						<tab>Sigma_Ultratech</tab>
-					</value>
-				</nomatch>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]</xpath>
+				<value>
+					<tab>Sigma_Ultratech</tab>
+				</value>
 			</li>
 			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/techLevel</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/techLevel</xpath>
-					<value>
-						<techLevel>techLevel</techLevel>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]</xpath>
-					<value>
-						<techLevel>techLevel</techLevel>
-					</value>
-				</nomatch>
+				<value>
+					<techLevel>Ultra</techLevel>
+				</value>
 			</li>
 			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/researchViewX</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/researchViewX</xpath>
-					<value>
-						<researchViewX>researchViewX</researchViewX>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]</xpath>
-					<value>
-						<researchViewX>researchViewX</researchViewX>
-					</value>
-				</nomatch>
+				<value>
+					<researchViewX>0</researchViewX>
+				</value>
 			</li>
 			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationConditional">
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/researchViewY</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]/researchViewY</xpath>
-					<value>
-						<researchViewY>researchViewY</researchViewY>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="WastepackAtomizer"]</xpath>
-					<value>
-						<researchViewY>researchViewY</researchViewY>
-					</value>
-				</nomatch>
+				<value>
+					<researchViewY>3.5</researchViewY>
+				</value>
 			</li>
 		</operations>
 	</Operation>

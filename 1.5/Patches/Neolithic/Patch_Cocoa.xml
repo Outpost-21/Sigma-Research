@@ -1,75 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<!-- ==================== Cocoa ============================= -->
+	<!-- ==================== Research Tab ============================= -->
 
-	<Operation Class="PatchOperationSequence">
-		<operations>
-			<!-- ==================== Research Tab ============================= -->
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/tab</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/tab</xpath>
-					<value>
-						<tab>Sigma_Neolithic</tab>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
-					<value>
-						<tab>Sigma_Neolithic</tab>
-					</value>
-				</nomatch>
-			</li>
-			<!-- ==================== Tech Level ============================= -->
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/techLevel</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/techLevel</xpath>
-					<value>
-						<techLevel>Neolithic</techLevel>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
-					<value>
-						<techLevel>Neolithic</techLevel>
-					</value>
-				</nomatch>
-			</li>
-			<!-- ==================== Horizontal Position ==================== -->
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/researchViewX</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/researchViewX</xpath>
-					<value>
-						<researchViewX>1</researchViewX>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
-					<value>
-						<researchViewX>1</researchViewX>
-					</value>
-				</nomatch>
-			</li>
-			<!-- ==================== Vertical Position ====================== -->
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/researchViewY</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/researchViewY</xpath>
-					<value>
-						<researchViewY>0</researchViewY>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
-					<value>
-						<researchViewY>0</researchViewY>
-					</value>
-				</nomatch>
-			</li>
-		</operations>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
+		<value>
+			<tab>Sigma_Neolithic</tab>
+		</value>
+	</Operation>
+
+	<!-- ==================== Tech Level ============================= -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/techLevel</xpath>
+		<value>
+			<techLevel>Neolithic</techLevel>
+		</value>
+	</Operation>
+
+	<!-- ==================== Horizontal Position ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/researchViewX</xpath>
+		<value>
+			<researchViewX>1</researchViewX>
+		</value>
+	</Operation>
+
+	<!-- ==================== Vertical Position ====================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/researchViewY</xpath>
+		<value>
+			<researchViewY>0</researchViewY>
+		</value>
 	</Operation>
 
 </Patch>
