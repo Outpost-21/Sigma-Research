@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|f:\\rwmodcategories\\neronix17\\nero\u0027s research patches\\1.6\\source\\sigmaresearch\\sigmaresearchstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|solutionrelative:sigmaresearchstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\sigmaresearchsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|solutionrelative:sigmaresearchsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\sigmaresearchmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|solutionrelative:sigmaresearchmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\sigmaresearchdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|solutionrelative:sigmaresearchdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SigmaResearch||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFB7918-FE1E-4C91-A480-C78680D1D975}|SigmaResearch.csproj|f:\\rwmodcategories\\neronix17\\nero\u0027s research patches\\1.6\\source\\sigmaresearch\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SigmaResearch",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearch.csproj",
+              "RelativeDocumentMoniker": "SigmaResearch.csproj",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearch.csproj",
+              "RelativeToolTip": "SigmaResearch.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-02T07:52:16.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SigmaResearchDefOf.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchDefOf.cs",
+              "RelativeDocumentMoniker": "SigmaResearchDefOf.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchDefOf.cs",
+              "RelativeToolTip": "SigmaResearchDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:50:41.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SigmaResearchStartup.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchStartup.cs",
+              "RelativeDocumentMoniker": "SigmaResearchStartup.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchStartup.cs",
+              "RelativeToolTip": "SigmaResearchStartup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:50:41.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SigmaResearchSettings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchSettings.cs",
+              "RelativeDocumentMoniker": "SigmaResearchSettings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchSettings.cs",
+              "RelativeToolTip": "SigmaResearchSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:50:42.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SigmaResearchMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchMod.cs",
+              "RelativeDocumentMoniker": "SigmaResearchMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Nero\u0027s Research Patches\\1.6\\Source\\SigmaResearch\\SigmaResearchMod.cs",
+              "RelativeToolTip": "SigmaResearchMod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:50:42.363Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,20 +23,20 @@ namespace SigmaResearch
 
         static SigmaResearchStartup()
         {
-            LogUtil.LogMessage("Mapping Pre-patched Research Projects...");
+            Log.Message("Mapping Pre-patched Research Projects...");
             MapExistingResearchProjects();
-            LogUtil.LogMessage("Mapping Complete.");
+            Log.Message("Mapping Complete.");
             if (GetSettings.moveUnpatchedResearches)
             {
-                LogUtil.LogMessage("Remapping Unpatched Reseearch Projects...");
+                Log.Message("Remapping Unpatched Reseearch Projects...");
                 RepositionToTabAndGrid();
-                LogUtil.LogMessage("Remapping Complete.");
+                Log.Message("Remapping Complete.");
             }
             if (GetSettings.removeEmptyTabs)
             {
-                LogUtil.LogMessage("Removing Empty Tabs...");
+                Log.Message("Removing Empty Tabs...");
                 RemoveEmptyTabs();
-                LogUtil.LogMessage("Removals Complete.");
+                Log.Message("Removals Complete.");
             }
             if (ModLister.AnomalyInstalled)
             {
@@ -57,7 +57,7 @@ namespace SigmaResearch
                     if (animalProjectsMapping.NullOrEmpty()) { animalProjectsMapping = new Dictionary<Vector2, string>(); }
                     if (animalProjectsMapping.ContainsKey(coords)) 
                     { 
-                        LogUtil.LogError($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); 
+                        Log.Error($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); 
                         return; 
                     }
                     animalProjectsMapping.Add(coords, project.defName);
@@ -67,7 +67,7 @@ namespace SigmaResearch
                     if (neolithicProjectsMapping.NullOrEmpty()) { neolithicProjectsMapping = new Dictionary<Vector2, string>(); }
                     if (neolithicProjectsMapping.ContainsKey(coords))
                     {
-                        LogUtil.LogError($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {neolithicProjectsMapping[coords]}.");
+                        Log.Error($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {neolithicProjectsMapping[coords]}.");
                         return;
                     }
                     neolithicProjectsMapping.Add(coords, project.defName);
@@ -77,7 +77,7 @@ namespace SigmaResearch
                     if (medievalProjectsMapping.NullOrEmpty()) { medievalProjectsMapping = new Dictionary<Vector2, string>(); }
                     if (medievalProjectsMapping.ContainsKey(coords))
                     {
-                        LogUtil.LogError($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {medievalProjectsMapping[coords]}.");
+                        Log.Error($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {medievalProjectsMapping[coords]}.");
                         return;
                     }
                     medievalProjectsMapping.Add(coords, project.defName);
@@ -87,7 +87,7 @@ namespace SigmaResearch
                     if (industrialProjectsMapping.NullOrEmpty()) { industrialProjectsMapping = new Dictionary<Vector2, string>(); }
                     if (industrialProjectsMapping.ContainsKey(coords))
                     {
-                        LogUtil.LogError($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {industrialProjectsMapping[coords]}.");
+                        Log.Error($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {industrialProjectsMapping[coords]}.");
                         return;
                     }
                     industrialProjectsMapping.Add(coords, project.defName);
@@ -97,7 +97,7 @@ namespace SigmaResearch
                     if (spacerProjectsMapping.NullOrEmpty()) { spacerProjectsMapping = new Dictionary<Vector2, string>(); }
                     if (spacerProjectsMapping.ContainsKey(coords))
                     {
-                        LogUtil.LogError($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {spacerProjectsMapping[coords]}.");
+                        Log.Error($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {spacerProjectsMapping[coords]}.");
                         return;
                     }
                     spacerProjectsMapping.Add(coords, project.defName);
@@ -107,7 +107,7 @@ namespace SigmaResearch
                     if (ultraProjectsMapping.NullOrEmpty()) { ultraProjectsMapping = new Dictionary<Vector2, string>(); }
                     if (ultraProjectsMapping.ContainsKey(coords))
                     {
-                        LogUtil.LogError($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {ultraProjectsMapping[coords]}.");
+                        Log.Error($"Attempted to map coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {ultraProjectsMapping[coords]}.");
                         return;
                     }
                     ultraProjectsMapping.Add(coords, project.defName);
@@ -133,27 +133,27 @@ namespace SigmaResearch
             switch (project.techLevel)
             {
                 case TechLevel.Animal:
-                    if (animalProjectsMapping.ContainsKey(coords)) { LogUtil.LogError($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
+                    if (animalProjectsMapping.ContainsKey(coords)) { Log.Error($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
                     animalProjectsMapping.Add(coords, project.defName);
                     break;
                 case TechLevel.Neolithic:
-                    if (neolithicProjectsMapping.ContainsKey(coords)) { LogUtil.LogError($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
+                    if (neolithicProjectsMapping.ContainsKey(coords)) { Log.Error($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
                     neolithicProjectsMapping.Add(coords, project.defName);
                     break;
                 case TechLevel.Medieval:
-                    if (medievalProjectsMapping.ContainsKey(coords)) { LogUtil.LogError($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
+                    if (medievalProjectsMapping.ContainsKey(coords)) { Log.Error($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
                     medievalProjectsMapping.Add(coords, project.defName);
                     break;
                 case TechLevel.Industrial:
-                    if (industrialProjectsMapping.ContainsKey(coords)) { LogUtil.LogError($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
+                    if (industrialProjectsMapping.ContainsKey(coords)) { Log.Error($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
                     industrialProjectsMapping.Add(coords, project.defName);
                     break;
                 case TechLevel.Spacer:
-                    if (spacerProjectsMapping.ContainsKey(coords)) { LogUtil.LogError($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
+                    if (spacerProjectsMapping.ContainsKey(coords)) { Log.Error($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
                     spacerProjectsMapping.Add(coords, project.defName);
                     break;
                 case TechLevel.Ultra:
-                    if (ultraProjectsMapping.ContainsKey(coords)) { LogUtil.LogError($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
+                    if (ultraProjectsMapping.ContainsKey(coords)) { Log.Error($"Attempted to assign coords {coords} to {project.defName} ({project.LabelCap}) but coords already mapped to {animalProjectsMapping[coords]}."); return; }
                     ultraProjectsMapping.Add(coords, project.defName);
                     break;
                 default:
@@ -215,7 +215,7 @@ namespace SigmaResearch
                     }
                 }
             }
-            LogUtil.LogError($"Could not find empty grid coords for tech level {project.techLevel.ToStringHuman()} for project {project.defName} ({project.LabelCap})");
+            Log.Error($"Could not find empty grid coords for tech level {project.techLevel.ToStringHuman()} for project {project.defName} ({project.LabelCap})");
             return new Vector2(0, 0);
         }
 
@@ -244,7 +244,7 @@ namespace SigmaResearch
                 default:
                     if(project.tab != ResearchTabDefOf.Anomaly) 
                     { 
-                        LogUtil.LogError($"Research has no assigned tech level and cannot be properly organised into tabs: {project.defName} ({project.LabelCap})"); 
+                        Log.Error($"Research has no assigned tech level and cannot be properly organised into tabs: {project.defName} ({project.LabelCap})"); 
                     }
                     break;
             }

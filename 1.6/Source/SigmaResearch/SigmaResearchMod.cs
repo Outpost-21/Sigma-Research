@@ -31,7 +31,7 @@ namespace SigmaResearch
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            LogUtil.LogMessage($"{CurrentVersion} ::");
+            Log.Message($":: Sigma Research :: ".Colorize(Color.cyan) + " {CurrentVersion} ::");
 
             if (Prefs.DevMode)
             {
@@ -42,7 +42,7 @@ namespace SigmaResearch
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        public override string SettingsCategory() => "SigmaResearch";
+        public override string SettingsCategory() => "Sigma Research";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
