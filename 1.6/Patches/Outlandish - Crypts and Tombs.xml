@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!--
+        =========================================================================================
+        ============================= Outlandish - Crypts and Tombs =============================
+        =========================================================================================
+    -->
+
+    <!-- ============================= Catacombs ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>1</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]</xpath>
+                    <value>
+                        <researchViewX>1</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>3.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_Catacombs"]</xpath>
+                    <value>
+                        <researchViewY>3.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Bloodflame ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>2</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]</xpath>
+                    <value>
+                        <researchViewX>2</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>3.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]</xpath>
+                    <value>
+                        <researchViewY>3.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

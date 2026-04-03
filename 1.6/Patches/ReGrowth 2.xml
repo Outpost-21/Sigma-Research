@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!--
+        ======================================================================
+        ============================= ReGrowth 2 =============================
+        ======================================================================
+    -->
+
+    <!-- ============================= Mushroom cultivation ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Neolithic</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]</xpath>
+                    <value>
+                        <tab>Sigma_Neolithic</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Neolithic</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]</xpath>
+                    <value>
+                        <techLevel>Neolithic</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>0</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]</xpath>
+                    <value>
+                        <researchViewX>0</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_MushroomCultivation"]</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Berry cultivation ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Neolithic</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]</xpath>
+                    <value>
+                        <tab>Sigma_Neolithic</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Neolithic</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]</xpath>
+                    <value>
+                        <techLevel>Neolithic</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>1</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]</xpath>
+                    <value>
+                        <researchViewX>1</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="RG_BerryCultivation"]</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

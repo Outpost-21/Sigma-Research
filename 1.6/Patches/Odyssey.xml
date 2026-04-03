@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!--
+        ===================================================================
+        ============================= Odyssey =============================
+        ===================================================================
+    -->
+
+    <!-- ============================= Fishing ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Neolithic</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+                    <value>
+                        <tab>Sigma_Neolithic</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Neolithic</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+                    <value>
+                        <techLevel>Neolithic</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>2</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+                    <value>
+                        <researchViewX>2</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Basic gravtech ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Standard gravtech ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>10</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]</xpath>
+                    <value>
+                        <researchViewX>10</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Advanced gravtech ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>11</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]</xpath>
+                    <value>
+                        <researchViewX>11</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Orbital tech ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Heavy bridges ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Industrial</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+                    <value>
+                        <tab>Sigma_Industrial</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Industrial</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+                    <value>
+                        <techLevel>Industrial</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>0</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+                    <value>
+                        <researchViewX>0</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+                    <value>
+                        <researchViewY>1</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Beam weapons ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="BeamWeapons"]</xpath>
+                    <value>
+                        <researchViewY>2.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Shuttle ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>10</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]</xpath>
+                    <value>
+                        <researchViewX>10</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]</xpath>
+                    <value>
+                        <researchViewY>0.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Hunter drone ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Industrial</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]</xpath>
+                    <value>
+                        <tab>Sigma_Industrial</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Industrial</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]</xpath>
+                    <value>
+                        <techLevel>Industrial</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>8</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]</xpath>
+                    <value>
+                        <researchViewX>8</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>4.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HunterDrones"]</xpath>
+                    <value>
+                        <researchViewY>4.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

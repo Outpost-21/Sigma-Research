@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!--
+        ==================================================================================================
+        ============================= Vanilla Factions Expanded - Medieval 2 =============================
+        ==================================================================================================
+    -->
+
+    <!-- ============================= Beekeeping ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Wine ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Wine"]</xpath>
+                    <value>
+                        <researchViewY>2.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Alchemy ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>3</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]</xpath>
+                    <value>
+                        <researchViewY>3</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Medieval architecture ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>3</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
+                    <value>
+                        <researchViewX>3</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>3</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
+                    <value>
+                        <researchViewY>3</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Complex workshops ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>4</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
+                    <value>
+                        <researchViewX>4</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Matchlocks ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>4</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+                    <value>
+                        <researchViewX>4</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+                    <value>
+                        <researchViewY>2.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Heraldry ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]</xpath>
+                    <value>
+                        <tab>Sigma_Medieval</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]</xpath>
+                    <value>
+                        <techLevel>Medieval</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>4</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]</xpath>
+                    <value>
+                        <researchViewX>4</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>3</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]</xpath>
+                    <value>
+                        <researchViewY>3</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

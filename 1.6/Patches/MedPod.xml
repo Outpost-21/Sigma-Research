@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!--
+        ==================================================================
+        ============================= MedPod =============================
+        ==================================================================
+    -->
+
+    <!-- ============================= Accelerated Cellular Regeneration ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]</xpath>
+                    <value>
+                        <researchViewX>9</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1.5</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="AcceleratedCellularRegeneration"]</xpath>
+                    <value>
+                        <researchViewY>1.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
