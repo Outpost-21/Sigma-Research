@@ -109,13 +109,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="StandardMechtech"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="StandardMechtech"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -183,13 +183,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="HighMechtech"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="HighMechtech"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -199,13 +199,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="HighMechtech"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>8</researchViewX>
+                        <researchViewX>14</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="HighMechtech"]</xpath>
                     <value>
-                        <researchViewX>8</researchViewX>
+                        <researchViewX>14</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -479,13 +479,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -553,13 +553,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="GeneProcessor"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="GeneProcessor"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>

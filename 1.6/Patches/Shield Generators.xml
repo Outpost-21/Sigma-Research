@@ -51,13 +51,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_BasicShieldTech"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>4</researchViewX>
+                        <researchViewX>3</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_BasicShieldTech"]</xpath>
                     <value>
-                        <researchViewX>4</researchViewX>
+                        <researchViewX>3</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -67,13 +67,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_BasicShieldTech"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0</researchViewY>
+                        <researchViewY>3</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_BasicShieldTech"]</xpath>
                     <value>
-                        <researchViewY>0</researchViewY>
+                        <researchViewY>3</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -141,13 +141,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_AdvancedShieldTech"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0.5</researchViewY>
+                        <researchViewY>3</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_AdvancedShieldTech"]</xpath>
                     <value>
-                        <researchViewY>0.5</researchViewY>
+                        <researchViewY>3</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -215,13 +215,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_PortableShieldTech"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>1</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="ShieldGen_PortableShieldTech"]</xpath>
                     <value>
-                        <researchViewY>1</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </nomatch>
             </li>

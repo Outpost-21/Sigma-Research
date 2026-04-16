@@ -405,13 +405,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Stonecutting"]/techLevel</xpath>
                     <value>
-                        <techLevel>Neolithic</techLevel>
+                        <techLevel>Medieval</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Stonecutting"]</xpath>
                     <value>
-                        <techLevel>Neolithic</techLevel>
+                        <techLevel>Medieval</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -553,13 +553,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="DrugProduction"]/techLevel</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="DrugProduction"]</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -1071,13 +1071,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="PsychiteRefining"]/techLevel</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="PsychiteRefining"]</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -1145,13 +1145,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="WakeUpProduction"]/techLevel</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="WakeUpProduction"]</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -1219,13 +1219,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="GoJuiceProduction"]/techLevel</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="GoJuiceProduction"]</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -1293,13 +1293,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/techLevel</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
                     <value>
-                        <techLevel>Medieval</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -4623,13 +4623,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Fabrication"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Fabrication"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -4697,13 +4697,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="AdvancedFabrication"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="AdvancedFabrication"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>

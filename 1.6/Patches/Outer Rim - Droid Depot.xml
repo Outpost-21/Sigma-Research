@@ -51,13 +51,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEngineering"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>2</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEngineering"]</xpath>
                     <value>
-                        <researchViewX>2</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -67,13 +67,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEngineering"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.5</researchViewY>
+                        <researchViewY>0</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEngineering"]</xpath>
                     <value>
-                        <researchViewY>5.5</researchViewY>
+                        <researchViewY>0</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -125,13 +125,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementParts"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>2</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementParts"]</xpath>
                     <value>
-                        <researchViewX>2</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -141,13 +141,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementParts"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>6</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementParts"]</xpath>
                     <value>
-                        <researchViewY>6</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -199,13 +199,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsOver"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>2</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsOver"]</xpath>
                     <value>
-                        <researchViewX>2</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -215,13 +215,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsOver"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>6.5</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsOver"]</xpath>
                     <value>
-                        <researchViewY>6.5</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -273,13 +273,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsAdv"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsAdv"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -289,13 +289,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsAdv"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidReplacementPartsAdv"]</xpath>
                     <value>
-                        <researchViewY>0</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -347,13 +347,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEnergySys"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEnergySys"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -363,13 +363,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEnergySys"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0.5</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidEnergySys"]</xpath>
                     <value>
-                        <researchViewY>0.5</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -421,13 +421,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidWeaponSys"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidWeaponSys"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -495,13 +495,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidAdvancedSys"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidAdvancedSys"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -511,13 +511,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidAdvancedSys"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>1.5</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_DroidAdvancedSys"]</xpath>
                     <value>
-                        <researchViewY>1.5</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -569,13 +569,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AssassinDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AssassinDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -585,13 +585,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AssassinDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>2</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AssassinDroids"]</xpath>
                     <value>
-                        <researchViewY>2</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -643,13 +643,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AstromechDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AstromechDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -659,13 +659,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AstromechDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>2.5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_AstromechDroids"]</xpath>
                     <value>
-                        <researchViewY>2.5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -717,13 +717,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_BattleDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_BattleDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -733,13 +733,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_BattleDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>3</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_BattleDroids"]</xpath>
                     <value>
-                        <researchViewY>3</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -791,13 +791,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MaintenanceDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MaintenanceDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -807,13 +807,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MaintenanceDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>3.5</researchViewY>
+                        <researchViewY>2</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MaintenanceDroids"]</xpath>
                     <value>
-                        <researchViewY>3.5</researchViewY>
+                        <researchViewY>2</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -865,13 +865,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MedicalDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MedicalDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -881,13 +881,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MedicalDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>4</researchViewY>
+                        <researchViewY>2</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_MedicalDroids"]</xpath>
                     <value>
-                        <researchViewY>4</researchViewY>
+                        <researchViewY>2</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -939,13 +939,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_PowerDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_PowerDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -955,13 +955,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_PowerDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>4.5</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_PowerDroids"]</xpath>
                     <value>
-                        <researchViewY>4.5</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -1013,13 +1013,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_ProtocolDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_ProtocolDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -1029,13 +1029,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_ProtocolDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_ProtocolDroids"]</xpath>
                     <value>
-                        <researchViewY>5</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -1087,13 +1087,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_LaborDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_LaborDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -1103,13 +1103,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_LaborDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.5</researchViewY>
+                        <researchViewY>2</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_LaborDroids"]</xpath>
                     <value>
-                        <researchViewY>5.5</researchViewY>
+                        <researchViewY>2</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -1161,13 +1161,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_SecurityDroids"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_SecurityDroids"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -1177,13 +1177,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_SecurityDroids"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>6</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OuterRim_SecurityDroids"]</xpath>
                     <value>
-                        <researchViewY>6</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </nomatch>
             </li>

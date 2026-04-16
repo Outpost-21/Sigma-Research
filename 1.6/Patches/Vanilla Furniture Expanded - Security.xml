@@ -421,13 +421,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VFES_RepulsorTechnology"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>0</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="VFES_RepulsorTechnology"]</xpath>
                     <value>
-                        <researchViewX>3</researchViewX>
+                        <researchViewX>0</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -437,13 +437,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VFES_RepulsorTechnology"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>6.5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="VFES_RepulsorTechnology"]</xpath>
                     <value>
-                        <researchViewY>6.5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </nomatch>
             </li>

@@ -19,13 +19,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -35,13 +35,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -51,13 +51,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -67,13 +67,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultConstruction"]</xpath>
                     <value>
-                        <researchViewY>0</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -93,13 +93,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -109,13 +109,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -125,13 +125,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -141,13 +141,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0.5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultPowerSystems"]</xpath>
                     <value>
-                        <researchViewY>0.5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -167,13 +167,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultDefenceSystems"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultDefenceSystems"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -183,13 +183,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultDefenceSystems"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultDefenceSystems"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -199,13 +199,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultDefenceSystems"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultDefenceSystems"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -241,13 +241,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -257,13 +257,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -273,13 +273,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -289,13 +289,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>1.5</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultCommsSystems"]</xpath>
                     <value>
-                        <researchViewY>1.5</researchViewY>
+                        <researchViewY>0.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -315,13 +315,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -331,13 +331,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -347,13 +347,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>7</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -363,13 +363,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>2</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultEnvironmentalSystems"]</xpath>
                     <value>
-                        <researchViewY>2</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -389,13 +389,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -405,13 +405,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -421,13 +421,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -437,13 +437,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>2.5</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultFurniture"]</xpath>
                     <value>
-                        <researchViewY>2.5</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -463,13 +463,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -479,13 +479,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -495,13 +495,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -511,13 +511,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>3</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VaultArmoury"]</xpath>
                     <value>
-                        <researchViewY>3</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -537,13 +537,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -553,13 +553,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -569,13 +569,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -585,13 +585,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.5</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VirtualReality"]</xpath>
                     <value>
-                        <researchViewY>5.5</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -611,13 +611,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -627,13 +627,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -643,13 +643,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -659,13 +659,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>6</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRProcessing"]</xpath>
                     <value>
-                        <researchViewY>6</researchViewY>
+                        <researchViewY>2.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -685,13 +685,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]</xpath>
                     <value>
-                        <tab>Sigma_Ultratech</tab>
+                        <tab>Sigma_Spacer</tab>
                     </value>
                 </nomatch>
             </li>
@@ -701,13 +701,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]/techLevel</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]</xpath>
                     <value>
-                        <techLevel>Ultra</techLevel>
+                        <techLevel>Spacer</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -717,13 +717,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]</xpath>
                     <value>
-                        <researchViewX>0</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -733,13 +733,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>6.5</researchViewY>
+                        <researchViewY>3</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="CosRim_VRGuideChips"]</xpath>
                     <value>
-                        <researchViewY>6.5</researchViewY>
+                        <researchViewY>3</researchViewY>
                     </value>
                 </nomatch>
             </li>

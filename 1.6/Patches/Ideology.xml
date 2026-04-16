@@ -35,13 +35,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Biosculpting"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Biosculpting"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -109,13 +109,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Bioregeneration"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Bioregeneration"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -183,13 +183,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="NeuralSupercharger"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="NeuralSupercharger"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>

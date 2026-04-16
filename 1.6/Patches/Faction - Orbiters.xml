@@ -2,192 +2,44 @@
 <Patch>
 
     <!--
-        ====================================================================================================
-        ============================= Vanilla Factions Expanded - Insectoids 2 =============================
-        ====================================================================================================
+        ==============================================================================
+        ============================= Faction - Orbiters =============================
+        ==============================================================================
     -->
 
-    <!-- ============================= Basic hivetech ============================= -->
+    <!-- ============================= Turret drone ============================= -->
 
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]</xpath>
+        <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]</xpath>
         <match Class="PatchOperationSequence">
             <operations>
             <!-- ============================= Research Tab ============================= -->
             <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/tab</xpath>
+                <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/tab</xpath>
                 <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/tab</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/tab</xpath>
                     <value>
-                        <tab>Sigma_Spacer</tab>
+                        <tab>Sigma_Industrial</tab>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]</xpath>
                     <value>
-                        <tab>Sigma_Spacer</tab>
+                        <tab>Sigma_Industrial</tab>
                     </value>
                 </nomatch>
             </li>
             <!-- ============================= Tech Level ============================= -->
             <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/techLevel</xpath>
+                <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/techLevel</xpath>
                 <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/techLevel</xpath>
-                    <value>
-                        <techLevel>Medieval</techLevel>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]</xpath>
-                    <value>
-                        <techLevel>Medieval</techLevel>
-                    </value>
-                </nomatch>
-            </li>
-            <!-- ============================= Horizontal Position ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/researchViewX</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/researchViewX</xpath>
-                    <value>
-                        <researchViewX>2</researchViewX>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]</xpath>
-                    <value>
-                        <researchViewX>2</researchViewX>
-                    </value>
-                </nomatch>
-            </li>
-            <!-- ============================= Vertical Position ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/researchViewY</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/researchViewY</xpath>
-                    <value>
-                        <researchViewY>5</researchViewY>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]</xpath>
-                    <value>
-                        <researchViewY>5</researchViewY>
-                    </value>
-                </nomatch>
-            </li>
-            </operations>
-        </match>
-    </Operation>
-
-    <!-- ============================= Standard hivetech ============================= -->
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]</xpath>
-        <match Class="PatchOperationSequence">
-            <operations>
-            <!-- ============================= Research Tab ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/tab</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/tab</xpath>
-                    <value>
-                        <tab>Sigma_Spacer</tab>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]</xpath>
-                    <value>
-                        <tab>Sigma_Spacer</tab>
-                    </value>
-                </nomatch>
-            </li>
-            <!-- ============================= Tech Level ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/techLevel</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/techLevel</xpath>
-                    <value>
-                        <techLevel>Medieval</techLevel>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]</xpath>
-                    <value>
-                        <techLevel>Medieval</techLevel>
-                    </value>
-                </nomatch>
-            </li>
-            <!-- ============================= Horizontal Position ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/researchViewX</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/researchViewX</xpath>
-                    <value>
-                        <researchViewX>5</researchViewX>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]</xpath>
-                    <value>
-                        <researchViewX>5</researchViewX>
-                    </value>
-                </nomatch>
-            </li>
-            <!-- ============================= Vertical Position ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/researchViewY</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/researchViewY</xpath>
-                    <value>
-                        <researchViewY>5</researchViewY>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]</xpath>
-                    <value>
-                        <researchViewY>5</researchViewY>
-                    </value>
-                </nomatch>
-            </li>
-            </operations>
-        </match>
-    </Operation>
-
-    <!-- ============================= Exotic hivetech ============================= -->
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]</xpath>
-        <match Class="PatchOperationSequence">
-            <operations>
-            <!-- ============================= Research Tab ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/tab</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/tab</xpath>
-                    <value>
-                        <tab>Sigma_Spacer</tab>
-                    </value>
-                </match>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]</xpath>
-                    <value>
-                        <tab>Sigma_Spacer</tab>
-                    </value>
-                </nomatch>
-            </li>
-            <!-- ============================= Tech Level ============================= -->
-            <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/techLevel</xpath>
-                <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/techLevel</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/techLevel</xpath>
                     <value>
                         <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]</xpath>
                     <value>
                         <techLevel>Industrial</techLevel>
                     </value>
@@ -195,33 +47,181 @@
             </li>
             <!-- ============================= Horizontal Position ============================= -->
             <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/researchViewX</xpath>
+                <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/researchViewX</xpath>
                 <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/researchViewX</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>14</researchViewX>
+                        <researchViewX>10</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]</xpath>
                     <value>
-                        <researchViewX>14</researchViewX>
+                        <researchViewX>10</researchViewX>
                     </value>
                 </nomatch>
             </li>
             <!-- ============================= Vertical Position ============================= -->
             <li Class="PatchOperationConditional">
-                <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/researchViewY</xpath>
+                <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/researchViewY</xpath>
                 <match Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/researchViewY</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
-                    <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]</xpath>
+                    <xpath>/Defs/ResearchProjectDef[defName="TurretDrones"]</xpath>
                     <value>
-                        <researchViewY>5</researchViewY>
+                        <researchViewY>1.5</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Cortex augmentation ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]</xpath>
+                    <value>
+                        <researchViewX>5</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="FrontalCortexAugment"]</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
+                    </value>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ============================= Skeletal plating ============================= -->
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- ============================= Research Tab ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/tab</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/tab</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]</xpath>
+                    <value>
+                        <tab>Sigma_Spacer</tab>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Tech Level ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/techLevel</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]</xpath>
+                    <value>
+                        <techLevel>Spacer</techLevel>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Horizontal Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/researchViewX</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>6</researchViewX>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]</xpath>
+                    <value>
+                        <researchViewX>6</researchViewX>
+                    </value>
+                </nomatch>
+            </li>
+            <!-- ============================= Vertical Position ============================= -->
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/researchViewY</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="SkeletonEnhancement"]</xpath>
+                    <value>
+                        <researchViewY>2</researchViewY>
                     </value>
                 </nomatch>
             </li>

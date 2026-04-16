@@ -67,13 +67,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteExtraction"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteExtraction"]</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -141,13 +141,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteHarvesting"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.1</researchViewY>
+                        <researchViewY>5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteHarvesting"]</xpath>
                     <value>
-                        <researchViewY>5.1</researchViewY>
+                        <researchViewY>5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -215,13 +215,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteShaping"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteShaping"]</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -347,13 +347,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteGenerator"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>5.5</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteGenerator"]</xpath>
                     <value>
-                        <researchViewX>5.5</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -363,13 +363,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteGenerator"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.7</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="BioferriteGenerator"]</xpath>
                     <value>
-                        <researchViewY>5.7</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -643,13 +643,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="AtmosphericHeater"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>6.5</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="AtmosphericHeater"]</xpath>
                     <value>
-                        <researchViewX>6.5</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -659,13 +659,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="AtmosphericHeater"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.7</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="AtmosphericHeater"]</xpath>
                     <value>
-                        <researchViewY>5.7</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -881,13 +881,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="EntityContainment"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.4</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="EntityContainment"]</xpath>
                     <value>
-                        <researchViewY>5.4</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -955,13 +955,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Electroharvester"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.7</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Electroharvester"]</xpath>
                     <value>
-                        <researchViewY>5.7</researchViewY>
+                        <researchViewY>5.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -1029,13 +1029,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="DisruptorFlares"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>5.1</researchViewY>
+                        <researchViewY>5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="DisruptorFlares"]</xpath>
                     <value>
-                        <researchViewY>5.1</researchViewY>
+                        <researchViewY>5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -1177,13 +1177,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="BasicPsychicRituals"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>1.05</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="BasicPsychicRituals"]</xpath>
                     <value>
-                        <researchViewY>1.05</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -1679,13 +1679,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="AdvancedPsychicRituals"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>4.5</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="AdvancedPsychicRituals"]</xpath>
                     <value>
-                        <researchViewX>4.5</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -1695,13 +1695,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="AdvancedPsychicRituals"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>1.05</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="AdvancedPsychicRituals"]</xpath>
                     <value>
-                        <researchViewY>1.05</researchViewY>
+                        <researchViewY>1</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -1901,13 +1901,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Philophagy"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>5.5</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Philophagy"]</xpath>
                     <value>
-                        <researchViewX>5.5</researchViewX>
+                        <researchViewX>5</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -1917,13 +1917,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="Philophagy"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0.1</researchViewY>
+                        <researchViewY>0</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="Philophagy"]</xpath>
                     <value>
-                        <researchViewY>0.1</researchViewY>
+                        <researchViewY>0</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -2271,13 +2271,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="SerumSynthesis"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>4.5</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="SerumSynthesis"]</xpath>
                     <value>
-                        <researchViewX>4.5</researchViewX>
+                        <researchViewX>4</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -2287,13 +2287,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="SerumSynthesis"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="SerumSynthesis"]</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </nomatch>
             </li>
@@ -2419,13 +2419,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="MindNumbSerum"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>6.5</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="MindNumbSerum"]</xpath>
                     <value>
-                        <researchViewX>6.5</researchViewX>
+                        <researchViewX>6</researchViewX>
                     </value>
                 </nomatch>
             </li>
@@ -2435,13 +2435,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="MindNumbSerum"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="MindNumbSerum"]</xpath>
                     <value>
-                        <researchViewY>3.4</researchViewY>
+                        <researchViewY>3.5</researchViewY>
                     </value>
                 </nomatch>
             </li>

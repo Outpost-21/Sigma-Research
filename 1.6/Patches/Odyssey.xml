@@ -109,13 +109,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -183,13 +183,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
@@ -331,13 +331,13 @@
                 <match Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/techLevel</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </match>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
                     <value>
-                        <techLevel>Spacer</techLevel>
+                        <techLevel>Industrial</techLevel>
                     </value>
                 </nomatch>
             </li>
